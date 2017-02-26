@@ -991,7 +991,7 @@ body {
   content: "";
 }
 #sociallinks li:nth-last-child(2):after {
-  content: " and ";
+  content: " a ";
 }
 .post-list {
   padding: 0;
