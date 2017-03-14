@@ -8,13 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="Ověření podpory pro linuxptpK zjištění, zda můžeme využít linuxptp, je nejprve zapotřebí zjistit, zda náš síťový adaptér podporuje timestamping.12345678$ ethtool -T wlan0Time stamping parameters for w">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Zprovoznění linuxptp na Raspberry Pi">
+<meta property="og:title" content="Zprovoznění Linuxptp Na Raspberry Pi">
 <meta property="og:url" content="http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/index.html">
 <meta property="og:site_name" content="Studentský blog">
 <meta property="og:description" content="Ověření podpory pro linuxptpK zjištění, zda můžeme využít linuxptp, je nejprve zapotřebí zjistit, zda náš síťový adaptér podporuje timestamping.12345678$ ethtool -T wlan0Time stamping parameters for w">
 <meta property="og:updated_time" content="2017-03-13T19:09:25.119Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Zprovoznění linuxptp na Raspberry Pi">
+<meta name="twitter:title" content="Zprovoznění Linuxptp Na Raspberry Pi">
 <meta name="twitter:description" content="Ověření podpory pro linuxptpK zjištění, zda můžeme využít linuxptp, je nejprve zapotřebí zjistit, zda náš síťový adaptér podporuje timestamping.12345678$ ethtool -T wlan0Time stamping parameters for w">
     
     
@@ -35,7 +35,7 @@
         
     
     <!-- title -->
-    <title>Zprovoznění linuxptp na Raspberry Pi</title>
+    <title>Zprovoznění Linuxptp Na Raspberry Pi</title>
     <!-- styles -->
     <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/lib/meslo-LG/styles.css">
@@ -85,15 +85,15 @@
     <div id="share" style="display: none">
       <ul>
   <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&text=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&is_video=false&description=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=Zprovoznění linuxptp na Raspberry Pi&body=Check out this article: http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&name=Zprovoznění linuxptp na Raspberry Pi&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&text=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&is_video=false&description=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Zprovoznění Linuxptp Na Raspberry Pi&body=Check out this article: http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&name=Zprovoznění Linuxptp Na Raspberry Pi&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -110,7 +110,7 @@
   <header>
     
     <h1 class="posttitle" itemprop="name headline">
-        Zprovoznění linuxptp na Raspberry Pi
+        Zprovoznění Linuxptp Na Raspberry Pi
     </h1>
 
 
@@ -169,15 +169,15 @@
     <div id="share-footer" style="display: none">
       <ul>
   <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&text=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&is_video=false&description=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=Zprovoznění linuxptp na Raspberry Pi&body=Check out this article: http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění linuxptp na Raspberry Pi"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&name=Zprovoznění linuxptp na Raspberry Pi&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&text=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&is_video=false&description=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Zprovoznění Linuxptp Na Raspberry Pi&body=Check out this article: http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&title=Zprovoznění Linuxptp Na Raspberry Pi"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/&name=Zprovoznění Linuxptp Na Raspberry Pi&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
