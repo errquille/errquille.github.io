@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://errquille.github.io/"/>
-  <updated>2017-03-13T19:09:25.119Z</updated>
+  <updated>2017-03-15T19:38:25.833Z</updated>
   <id>http://errquille.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Zprovoznění Linuxptp Na Raspberry Pi</title>
+    <title>Zprovoznění linuxptp na Raspberry Pi</title>
     <link href="http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/"/>
     <id>http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/</id>
     <published>2017-03-13T15:36:52.000Z</published>
-    <updated>2017-03-13T19:09:25.119Z</updated>
+    <updated>2017-03-15T19:38:25.833Z</updated>
     
     <summary type="html">
     
@@ -32,11 +32,11 @@
   </entry>
   
   <entry>
-    <title>ČAs a Raspberry Pi</title>
+    <title>Čas a Raspberry Pi</title>
     <link href="http://errquille.github.io/2017/03/11/Cas-a-Raspberry-Pi/"/>
     <id>http://errquille.github.io/2017/03/11/Cas-a-Raspberry-Pi/</id>
     <published>2017-03-11T18:25:35.000Z</published>
-    <updated>2017-03-13T19:10:54.618Z</updated>
+    <updated>2017-03-15T19:24:45.974Z</updated>
     
     <summary type="html">
     
