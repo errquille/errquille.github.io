@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://errquille.github.io/"/>
-  <updated>2017-03-18T23:48:45.433Z</updated>
+  <updated>2017-03-23T22:00:55.108Z</updated>
   <id>http://errquille.github.io/</id>
   
   <author>
@@ -16,11 +16,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Generátor PPS signálu na GPIO</title>
+    <link href="http://errquille.github.io/2017/03/23/generator-pps-signalu-na-gpio/"/>
+    <id>http://errquille.github.io/2017/03/23/generator-pps-signalu-na-gpio/</id>
+    <published>2017-03-23T21:04:16.000Z</published>
+    <updated>2017-03-23T22:00:55.108Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;PPS&quot;&gt;&lt;a href=&quot;#PPS&quot; class=&quot;headerlink&quot; title=&quot;PPS&quot;&gt;&lt;/a&gt;PPS&lt;/h2&gt;&lt;p&gt;Je to eletrický signál, který má hranu přesně s tiknutím sekundy. 
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Zprovoznění linuxptp na Raspberry Pi</title>
     <link href="http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/"/>
     <id>http://errquille.github.io/2017/03/13/Zprovozneni-linuxptp-na-Raspberry-Pi/</id>
     <published>2017-03-13T15:36:52.000Z</published>
-    <updated>2017-03-18T23:48:45.433Z</updated>
+    <updated>2017-03-20T14:49:14.377Z</updated>
     
     <summary type="html">
     
@@ -48,7 +64,7 @@
   </entry>
   
   <entry>
-    <title>Měření Dopravního Zpoždění</title>
+    <title>Měření dopravního zpoždění</title>
     <link href="http://errquille.github.io/2017/03/01/Mereni-dopravniho-zpozdeni/"/>
     <id>http://errquille.github.io/2017/03/01/Mereni-dopravniho-zpozdeni/</id>
     <published>2017-03-01T13:09:49.000Z</published>
