@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=cs>
 <head>
-    <!-- so meta -->
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><!-- so meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
@@ -52,12 +52,12 @@
       <link rel="alternate" href="/atom.xml" title="Studentský blog" type="application/atom+xml" />
     
     <!-- jquery -->
-    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="/lib/jquery/jquery.min.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body>
     
-    <div class="content index width mx-auto px2 my4">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="content index width mx-auto px2 my4">
         
           <header id="header">
   <a href="/">
@@ -98,6 +98,22 @@
 <section id="writing">
   <span class="h1"><a href="/archives">Články</a></span>
   <ul class="post-list">
+    
+      <li class="post-item">
+        
+    <div class="meta">
+        <time datetime="2017-05-15T17:08:50.000Z" itemprop="datePublished">2017-05-15</time>
+    </div>
+
+
+        <span>
+    
+        <a class="" href="/2017/05/15/priprava-na-cacc/">Příprava na CACC</a>
+    
+
+
+</span>
+      </li>
     
       <li class="post-item">
         
@@ -163,22 +179,6 @@
 </span>
       </li>
     
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2017-03-11T18:25:35.000Z" itemprop="datePublished">2017-03-11</time>
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2017/03/11/Cas-a-Raspberry-Pi/">Čas a Raspberry Pi</a>
-    
-
-
-</span>
-      </li>
-    
   </ul>
 </section>
 
@@ -219,5 +219,37 @@
 <!-- Disqus Comments -->
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
 </body>
 </html>
