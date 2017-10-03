@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Studentský blog</title>
+  
   <subtitle>Nevěřte všemu, co najdete na internetu.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -24,7 +25,10 @@
     
     <summary type="html">
     
-      &lt;p&gt;V posledních dvou týdnech jsem dokončoval nástroje pro měření zpoždění a ztrátovosti paketů v Java aplikaci našich autíček. K dokončení t
+      
+      
+        &lt;p&gt;V posledních dvou týdnech jsem dokončoval nástroje pro měření zpoždění a ztrátovosti paketů v Java aplikaci našich autíček. K dokončení t
+      
     
     </summary>
     
@@ -40,7 +44,10 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Situace&quot;&gt;&lt;a href=&quot;#Situace&quot; class=&quot;headerlink&quot; title=&quot;Situace&quot;&gt;&lt;/a&gt;Situace&lt;/h2&gt;&lt;p&gt;Po řadě úprav a testování jsem se dostal do bodu, 
+      
+      
+        &lt;h2 id=&quot;Situace&quot;&gt;&lt;a href=&quot;#Situace&quot; class=&quot;headerlink&quot; title=&quot;Situace&quot;&gt;&lt;/a&gt;Situace&lt;/h2&gt;&lt;p&gt;Po řadě úprav a testování jsem se dostal do bodu, 
+      
     
     </summary>
     
@@ -56,7 +63,10 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;PPS&quot;&gt;&lt;a href=&quot;#PPS&quot; class=&quot;headerlink&quot; title=&quot;PPS&quot;&gt;&lt;/a&gt;PPS&lt;/h2&gt;&lt;p&gt;Je to eletrický signál, který má hranu přesně s tiknutím sekundy. 
+      
+      
+        &lt;h2 id=&quot;PPS&quot;&gt;&lt;a href=&quot;#PPS&quot; class=&quot;headerlink&quot; title=&quot;PPS&quot;&gt;&lt;/a&gt;PPS&lt;/h2&gt;&lt;p&gt;Je to eletrický signál, který má hranu přesně s tiknutím sekundy. 
+      
     
     </summary>
     
@@ -72,7 +82,10 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Overeni-podpory-pro-linuxptp&quot;&gt;&lt;a href=&quot;#Overeni-podpory-pro-linuxptp&quot; class=&quot;headerlink&quot; title=&quot;Ověření podpory pro linuxptp&quot;&gt;&lt;/a&gt;Ov
+      
+      
+        &lt;h2 id=&quot;Overeni-podpory-pro-linuxptp&quot;&gt;&lt;a href=&quot;#Overeni-podpory-pro-linuxptp&quot; class=&quot;headerlink&quot; title=&quot;Ověření podpory pro linuxptp&quot;&gt;&lt;/a&gt;Ov
+      
     
     </summary>
     
@@ -88,7 +101,10 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Terminologie&quot;&gt;&lt;a href=&quot;#Terminologie&quot; class=&quot;headerlink&quot; title=&quot;Terminologie&quot;&gt;&lt;/a&gt;Terminologie&lt;/h2&gt;&lt;p&gt;V anglických textech se při po
+      
+      
+        &lt;h2 id=&quot;Terminologie&quot;&gt;&lt;a href=&quot;#Terminologie&quot; class=&quot;headerlink&quot; title=&quot;Terminologie&quot;&gt;&lt;/a&gt;Terminologie&lt;/h2&gt;&lt;p&gt;V anglických textech se při po
+      
     
     </summary>
     
@@ -104,7 +120,10 @@
     
     <summary type="html">
     
-      &lt;p&gt;V minulém semestru jsem se zabýval synchronizací času a měřením dopravního zpoždění. Napsal jsem k tomu &lt;a href=&quot;/pdf/indprojekt-wernisch
+      
+      
+        &lt;p&gt;V minulém semestru jsem se zabýval synchronizací času a měřením dopravního zpoždění. Napsal jsem k tomu &lt;a href=&quot;/pdf/indprojekt-wernisch
+      
     
     </summary>
     
